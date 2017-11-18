@@ -148,6 +148,43 @@ Example JSON:
 
 #### GET /sources/\<entity>
 
+| Item  | Description |
+| ------------- | ------------- |
+| Description  |  Retrieves information for a given source/entity.|
+| Parameters  | Optional: column[] to indicate which columns you're interested in. Not supplying this parameter will return the entity, the domain, the verification status on Facebook and Twitter, and the follower counts for the source on YouTube, Facebook and Twitter. |
+
+Example calls:
+```
+http://127.0.0.1:5000/sources/23767?column=url&column=name&column=date_added
+```
+
+```
+http://127.0.0.1:5000/sources/23767
+```
+
+
 #### GET /sources
 
+| Item  | Description |
+| ------------- | ------------- |
+| Description  |  Retrieves information for all sources currently in the system.|
+| Parameters  | Optional: column[] to indicate which columns you're interested in. Not supplying this parameter will return the entity, the domain, the verification status on Facebook and Twitter, and the follower counts for the source on YouTube, Facebook and Twitter. |
+
+Example call:
+```
+http://127.0.0.1:5000/sources?column=url&column=name&column=date_added
+```
+```
+http://127.0.0.1:5000/sources
+```
+
 #### /lookup/\<domain>
+| Item  | Description |
+| ------------- | ------------- |
+| Description  |  Retrieves the entity id that corresponds to the given domain. |
+| Parameters  | None |
+
+Example call:
+```
+http://127.0.0.1:5000/lookup/wsj.com
+```
