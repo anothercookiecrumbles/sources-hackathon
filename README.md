@@ -1,3 +1,5 @@
+To make any of the API calls, call the base url (e.g. http://localhost/ or http://127.0.0.1/) followed by the actual call. So, to get all sources, you would simply invoke `http://127.0.0.1/sources`.
+
 ## API calls implemented:
 - Add Facebook Profile (`/facebook_profile/add`)
 - Add Twitter Profile (`/twitter_profile/add`)
