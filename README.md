@@ -2,8 +2,9 @@
 
 #### POST/facebook_profile/add/
 
-| Item | Description |
-----------------------
+
+| Item        | Description |
+--------------------------------
 | Description | Adds Facebook profile to the database (or updates the existing profile, if one already exists) |
 | Parameters | None |
 | Type | Application/JSON | 
