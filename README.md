@@ -4,16 +4,16 @@
 
 ### POST /twitter_profile/add/
 
-### POST /youtube_profile/add/
+### POST /youtube_profile/add/
 
 ### POST /whois_profile/add/
 
 ### POST /website_profile/add/
 
-### POST /entity/add/
+### POST /entity/add/
 
-### GET /sources/<entity>
+### GET /sources/<entity>
 
-### GET /sources
+### GET /sources
 
-### /lookup/<domain>
+### /lookup/<domain>
